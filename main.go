@@ -1,6 +1,6 @@
 package main
 
-import "github.com/picatz/pcap-exporter/pkg/server"
+import "github.com/bmatei/pcap-exporter/pkg/server"
 
 func main() {
 	server.Start()

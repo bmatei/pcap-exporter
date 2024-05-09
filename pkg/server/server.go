@@ -5,7 +5,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/picatz/pcap-exporter/pkg/metrics"
+	"github.com/bmatei/pcap-exporter/pkg/metrics"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 

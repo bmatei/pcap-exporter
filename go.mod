@@ -1,4 +1,4 @@
-module github.com/picatz/pcap-exporter
+module github.com/bmatei/pcap-exporter
 
 go 1.14
 
