@@ -162,6 +162,9 @@ func Collect(iface, filter string,
 
 			if app == "" {
 				app = fmt.Sprintf("%d/%d", localPort, remotePort)
+				if packet.Layers()[len(packet.Layers()) - 1].LayerType() == layers.LayerTypeTCP {
+					app = "TCP control"
+				}
 			} else if app != "unknown" {
 				currentLayers = ""
 			}
